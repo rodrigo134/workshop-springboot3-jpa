@@ -4,6 +4,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.rodrigo134.myproject.entities.User;
 
+
+//JPa ja é registrado, nao precisa anotação @Repository
 public interface UserRepository extends JpaRepository<User, Long>{
 
 }

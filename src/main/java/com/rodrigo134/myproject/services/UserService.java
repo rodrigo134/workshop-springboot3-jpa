@@ -12,6 +12,7 @@ import com.rodrigo134.myproject.repositories.UserRepository;
 
 @Service
 public class UserService {
+	
 	@Autowired
 	private UserRepository repository;
 	
